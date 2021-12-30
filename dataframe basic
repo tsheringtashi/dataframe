@@ -1,0 +1,12 @@
+frames = np.random.randint(-10,10, (5,3))
+
+rows = ['A','b','c','d','e']
+columns = ['x','y','z']
+
+
+dataframe1= pd.DataFrame(frames, rows, columns)
+
+print(dataframe1)
+
+# df.drop_duplicate () will remove the value count more than 1. 
+
