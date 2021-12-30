@@ -7,3 +7,5 @@ dataframe1['states'] = new_index
 dataframe1 = dataframe1.set_index('states')
 
 
+dataframe1.reset_index()
+
