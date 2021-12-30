@@ -1,0 +1,9 @@
+new_index  = 'ca ny il tx fl'.split()
+
+
+dataframe1['states'] = new_index
+
+
+dataframe1 = dataframe1.set_index('states')
+
+
