@@ -1,0 +1,10 @@
+component = pd.DataFrame({"a":[1,2,3]})
+
+indicator = pd.DataFrame({"bhu":[22,33,55})
+
+
+df_concat = pd.concat([component, indicator]) # this will make NaN 
+
+# better is below
+
+df_concat = pd.concat([component, indicator], axis = 1)
